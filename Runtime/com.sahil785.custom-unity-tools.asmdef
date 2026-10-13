@@ -1,0 +1,14 @@
+{
+  "name": "com.sahil785.custom-unity-tools",
+  "rootNamespace": "Sahil785.CustomUnityTools",
+  "references": [
+    "UniTask",
+    "jillejr.newtonsoft.json-for-unity"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}

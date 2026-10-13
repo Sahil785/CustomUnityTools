@@ -1,0 +1,14 @@
+{
+  "name": "com.sahil785.custom-unity-tools",
+  "version": "1.0.0",
+  "displayName": "Custom Unity Tools",
+  "description": "This is a collection of Custom Unity Tools that can help in making your Unity Editor and Development work faster and smoother.",
+  "unity": "2021.3",
+  "author": {
+    "name": "Sahil785"
+  },
+  "dependencies": {
+    "com.cysharp.unitask": "https://github.com/Cysharp/UniTask.git?path=src/UniTask/Assets/Plugins/UniTask",
+    "jillejr.newtonsoft.json-for-unity": "https://github.com/jilleJr/Newtonsoft.Json-for-Unity.git#upm"
+  }
+}

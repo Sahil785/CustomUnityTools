@@ -1,0 +1,17 @@
+{
+  "name": "com.sahil785.custom-unity-tools.editor",
+  "rootNamespace": "Sahil785.CustomUnityTools.Editor",
+  "references": [
+    "com.sahil785.custom-unity-tools",
+    "UniTask",
+    "jillejr.newtonsoft.json-for-unity"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true
+}
