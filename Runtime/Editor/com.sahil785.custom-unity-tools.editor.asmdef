@@ -3,9 +3,10 @@
   "rootNamespace": "Sahil785.CustomUnityTools.Editor",
   "references": [
     "com.sahil785.custom-unity-tools",
-    "com.unity.textmeshpro",
     "UniTask",
-    "jillejr.newtonsoft.json-for-unity"
+    "jillejr.newtonsoft.json-for-unity",
+    "Unity.TextMeshPro",
+    "UnityEngine.UI"
   ],
   "includePlatforms": [
     "Editor"
