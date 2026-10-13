@@ -1,6 +1,6 @@
 {
   "name": "com.sahil785.custom-unity-tools",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "Custom Unity Tools",
   "description": "This is a collection of Custom Unity Tools that can help in making your Unity Editor and Development work faster and smoother.",
   "unity": "2021.3",
