@@ -2,6 +2,7 @@
   "name": "com.sahil785.custom-unity-tools",
   "rootNamespace": "Sahil785.CustomUnityTools",
   "references": [
+    "com.unity.textmeshpro",
     "UniTask",
     "jillejr.newtonsoft.json-for-unity"
   ],
