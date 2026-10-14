@@ -43,18 +43,19 @@ public class CustomContentSizeFitter : MonoBehaviour
     [Tooltip("If true, adjust this RectTransform's width to fit the targets.")]
     public bool FitHorizontal = false;
 
-    // NEW: when true, include TMP/Text on this GameObject even if not listed in TargetObjects.
-    [Tooltip("Include Text/TMP on this GameObject as a target even if not listed in TargetObjects.")]
-    public bool IncludeSelfText = false;
-
-    [Tooltip("When true, use Text/TMP preferred sizes instead of the target RectTransform's rect size.")]
-    public bool UseTextPreferredSize = true;
-
     [Tooltip("Maximum width after fitting (0 = no limit).")]
     public float MaxWidth = 0f;
 
     [Tooltip("Maximum height after fitting (0 = no limit).")]
     public float MaxHeight = 0f;
+
+    [Header("Optional Text/TMP Settings")]
+    // NEW: when true, include TMP/Text on this GameObject even if not listed in TargetObjects.
+    [Tooltip("Include Text/TMP on this GameObject as a target even if not listed in TargetObjects.")]
+    public bool IncludeSelfText = false;
+
+    [Tooltip("When true, use Text/TMP preferred sizes instead of the target RectTransform's rect size.")]
+    public bool UseTextPreferredSize = false;
 
     private RectTransform MyRT;
     private Vector2 LastTargetSize = Vector2.zero;
